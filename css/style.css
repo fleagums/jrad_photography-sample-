@@ -1,0 +1,102 @@
+@import url(http://fonts.googleapis.com/css?family=Cinzel+Decorative:900);
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+@import url(http://fonts.googleapis.com/css?family=Strait);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display+SC);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+
+.clearfix {
+  overflow: auto;
+}
+
+.wrapper {
+	background-image: url("../img/textured_background.jpg");
+}
+#logo_header {
+	height: 125px;
+	width: 100%;
+	background-color: black;
+}
+.nav{
+	border-top: gray solid 1px;
+	border-bottom: gray solid 1px;
+	background-color: black;
+}
+.nav ul li {
+	display: inline;
+	padding: 15px 35px;
+	text-align: center;
+}
+
+.nav a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Strait', sans-serif;
+}
+.nav a:hover {
+	text-decoration: none;
+}
+#branding_title a {
+	text-decoration: none;
+	color: gray;
+	display: inline;
+	font-family: 'Poiret One', cursive;
+	padding: 25px 0px 50px 125px;
+}
+.gallery_folders {
+	float:left;
+	padding:10px;
+}
+.gallery_images {
+	border: 1px solid gray;
+	width: 340px;
+	height: 225px;
+}
+.gallery_titles {
+	text-align: center;
+	font-family: 'Playfair Display SC', serif;
+	color: white;
+}
+#gallery_container {
+	padding:20px 50px;
+}
+#exhibit_container {
+	padding:20px 50px;
+}
+.exhibit_images {
+	border: 1px solid gray;
+	width: 300px;
+	height: 225px;
+}
+.exhibit_exhibit {
+	float:left;
+	padding:10px;
+}
+.image_name {
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+}
+
+#footer {
+	clear:both;
+	padding-top:15px;
+	padding-left:20px;
+	color: gray;
+}
+
+/* a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+} */
